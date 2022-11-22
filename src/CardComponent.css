@@ -1,0 +1,74 @@
+.CardComponent{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    min-height: 20vw;
+    margin-top: 2%;
+    background-color: #E45370;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageArea{
+    width: 25%;
+    padding: 1%;
+}
+
+.imageArea > img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.detailsArea{
+    width: 75%; 
+    min-height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 3% 2%;
+}
+.detailsArea > h1{
+    font-variant: small-caps;
+    font-weight: 900;
+    color: black;
+    font-size: 2.3vw;
+}
+
+.detailsArea > h3{
+    font-variant: small-caps;
+    color: black;
+    font-size: 1.8vw;
+}
+.detailsArea > h2{
+    font-weight: 500;
+    color: black;
+    font-size: 1.5vw;
+}
+.detailsArea > .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 4vw;
+}
+.detailsArea > .row > p{
+    color: black;
+    font-size: 1.5vw;
+}
+.detailsArea > button{
+    width: 30%;
+    padding: 2% 1%;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+.detailsArea > button:hover{
+    box-shadow: 0 0 3px rgb(56, 56, 56);
+}

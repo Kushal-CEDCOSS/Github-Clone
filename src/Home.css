@@ -1,0 +1,44 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #747474;
+}
+.Home > h1{
+    margin: 3% 1%;
+    color: rgb(255, 255, 255);
+    font-size: 3.5vw;
+}
+.Home > input[type="search"]{
+    margin: 3% 1%;
+    background-color: #E45370;
+    border: none;
+    padding: 1% 2%;
+    width: 50%;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 5px;
+}
+.Home > input[type="search"]::placeholder{
+    color: white;
+    font-size: 1.5vw;
+}
+.Home > button{
+    padding: 1% 3%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.6vw;
+    font-variant: small-caps;
+    font-weight: 800;
+    background-color: rgb(123, 192, 233);
+    cursor: pointer;
+}
+
+.Home > img{
+    width: 35%;
+    margin-top: 8%;
+}
